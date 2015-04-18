@@ -27,14 +27,17 @@ Things you may want to cover:
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
 
-echo "# Rails4" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/alishkaLala/Rails4.git
-git push -u origin master
+…or create a new repository on the command line
 
 
+ echo "# Rails4" >> README.md
+ git init
+ git add README.md
+ git commit -m "first commit"
+ git remote add origin https://github.com/alishkaLala/Rails4.git
+ git push -u origin master
+ …or push an existing repository from the command line
 
-git remote add origin https://github.com/alishkaLala/Rails4.git
-git push -u origin master
+
+ git remote add origin https://github.com/alishkaLala/Rails4.git
+ git push -u origin master
